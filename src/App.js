@@ -9,7 +9,7 @@ function App() {
     <div >
       <p>11111</p>
 
-        {apiUrl? <p>apiUrl</p>:null}
+        {/*{apiUrl? <p>apiUrl</p>:null}*/}
     </div>
   );
 }

@@ -1,7 +1,7 @@
 
 import './App.css';
 
-const apiUrl = process.env.GMAIL;
+const apiUrl = REACT_APP_GMAIL;
 console.log(apiUrl);
 
 function App() {

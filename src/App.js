@@ -1,16 +1,16 @@
-
 import './App.css';
+import {apiUrl} from "./config";
 
-const apiUrl = process.env.REACT_APP_GMAIL;
-console.log(apiUrl);
+
+
 
 function App() {
-  return (
-    <div >
-      <p>11111</p>
-        {/*{apiUrl? <p>apiUrl</p>:null}*/}
-    </div>
-  );
+    return (
+        <div >
+            <p>test</p>
+            {apiUrl? <p>{apiUrl}</p>:null}
+        </div>
+    );
 }
 
 export default App;
